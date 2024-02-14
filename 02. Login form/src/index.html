@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: Poppins, sans-serif">
+    <div class="">
+      <div
+        class="flex justify-center items-center h-[100vh] w-[100%] ba bg-[url('https://i.pinimg.com/originals/77/8d/45/778d45ca8e14153d1d54433d8948fa4e.jpg')] bg-center bg-cover"
+      >
+        <form
+          action="#"
+          class="relative w-[400px] h-[450px] bg-transparent rounded-xl backdrop-blur-xl flex flex-col justify-center items-center"
+        >
+          <h1 class="text-white font-semibold text-4xl mt-7">Login</h1>
+          <div class="relative my-[30px] w-[310px] border-b-2">
+            <span
+              class="material-symbols-outlined absolute right-[0px] text-white top-[20px]"
+            >
+              mail
+            </span>
+            <input
+              type="email"
+              class="w-full h-[50px] bg-transparent text-[1em] pl-[5px] pr-[35px] text-white"
+              required
+            />
+            <label
+              for="email"
+              class="absolute top-[50%] left-[5px] translate-y-[-50%] text-white pointer-events-none duration-[0.5s] focus:-[-5px] valid:-[-5px]"
+              >Email</label
+            >
+          </div>
+          <div class="relative my-[30px] w-[310px] border-b-2">
+            <span
+              class="material-symbols-outlined absolute right-[0px] text-white top-[20px]"
+            >
+              lock
+            </span>
+            <input
+              type="password"
+              class="w-full h-[50px] bg-transparent text-[1em] pl-[5px] pr-[35px] text-white"
+              required
+            />
+            <label
+              for="password"
+              class="absolute top-[50%] left-[5px] translate-y-[-50%] text-white pointer-events-none duration-[0.5s]"
+              >Password</label
+            >
+          </div>
+          <div class="text-white flex justify-between text-[14px] w-full px-[50px]">
+            <div>
+              <label for=""> <input type="checkbox" /> Remember Me </label>
+            </div>
+            <div>
+              <label for="">
+                <a class="underline" href="#">Forgot password</a>
+              </label>
+            </div>
+          </div>
+          <div>
+            <button type="submit" class=" bg-green-800 text-white
+             w-full px-[130px] py-[8px] mt-8 rounded-xl">Login</button>
+          </div>
+          <div class="mt-2 mb-8">
+            <p class="text-white text-[13px]">
+              Dont have an account?
+              <a href="#" class="underline"> Sign Up</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
